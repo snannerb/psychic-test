@@ -1,0 +1,92 @@
+/* Load pixel font */
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2') format('woff2');
+}
+
+/* General styling */
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #00ff00;
+}
+
+#image-container img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #00ff00;
+  margin: 20px 0;
+}
+
+#guess-section {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #333;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #00ff00;
+  color: #1e1e1e;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00cc00;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8em;
+}
+
+footer a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  button {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
